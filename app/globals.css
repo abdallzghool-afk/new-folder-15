@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@theme inline {
+  --font-sans: var(--font-cairo);
+  --color-background: #fffaf5;
+  --color-foreground: #2c211b;
+  --color-card: #ffffff;
+  --color-card-foreground: #2c211b;
+  --color-primary: #f97316;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #fff0e1;
+  --color-secondary-foreground: #c2410c;
+  --color-muted: #f6eee7;
+  --color-muted-foreground: #85756c;
+  --color-accent: #fbbf24;
+  --color-accent-foreground: #422006;
+  --color-border: #f0e3d8;
+  --color-input: #f0e3d8;
+  --color-ring: #fb923c;
+  --radius: 1rem;
+}
+:root { color-scheme: light; --background:#fffaf5; --foreground:#2c211b; --card:#ffffff; --card-foreground:#2c211b; --popover:#ffffff; --popover-foreground:#2c211b; --primary:#f97316; --primary-foreground:#ffffff; --secondary:#fff0e1; --secondary-foreground:#c2410c; --muted:#f6eee7; --muted-foreground:#85756c; --accent:#fbbf24; --accent-foreground:#422006; --border:#f0e3d8; --input:#f0e3d8; --ring:#fb923c; --radius:1rem; }
+* { border-color: var(--border); }
+body { background: var(--background); color: var(--foreground); }
+button, a { -webkit-tap-highlight-color: transparent; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { background: #f3c5a1; border-radius: 99px; }
