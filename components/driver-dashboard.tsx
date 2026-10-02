@@ -80,4 +80,3 @@ export function DriverLocationButton() { const [message, setMessage] = useState(
 
 export { LogOut }
 
-' }},{
